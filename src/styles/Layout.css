@@ -1,0 +1,173 @@
+/* === Main GTM container (no background or border) === */
+.gtm-container {
+  padding: 0;
+  margin-top: 12px;
+  background: none;
+  border: none;
+}
+
+.gtm-container > * {
+  margin-bottom: 4px !important; /* removes spacing between children */
+}
+
+/* === Tag group box === */
+.tag-group-card {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  margin-bottom: 2px;
+  padding: 10px 12px 8px 12px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.tag-group-card .d-flex.justify-content-between.align-items-center {
+  margin-bottom: 4px !important; /* aligns title + toggle neatly */
+}
+
+.tag-group-card .d-flex.flex-wrap {
+  gap: 6px; /* space between tag cards */
+}
+
+/* === Alert style (used in tag groups or modals) === */
+.alert {
+  margin: 4px 0 !important;
+  padding: 4px 8px !important;
+  font-size: 13px;
+}
+
+/* === Modal windows (used for tag details) === */
+.modal-content {
+  border-radius: 10px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12);
+}
+
+.modal-header {
+  background-color: #f1f9ff;
+  border-bottom: 1px solid #cce5ff;
+}
+
+.modal-title {
+  font-weight: 600;
+}
+
+.modal-footer {
+  border-top: 1px solid #dee2e6;
+}
+
+/* === GTM selector dropdown === */
+.gtm-select {
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  background-color: #fff;
+  appearance: auto;
+  min-width: 200px;
+}
+
+/* === Toggle switch for GTM activation === */
+.toggle-blocked {
+  transform: scale(1.1);
+  accent-color: #198754;
+  margin-left: 10px;
+}
+
+/* === Top header (contains copyright and page URL) === */
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin: 4px 8px 2px;
+}
+
+/* === Copyright box (left part of the top header) === */
+.copy-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  margin: 0;
+  background: #f8f9fa;
+  border: 1px solid #dde2e6;
+  border-radius: 6px;
+  font-size: 13px;
+  line-height: 1;
+}
+
+.copy-wrapper .brand {
+  font-weight: 600;
+}
+
+.copy-wrapper .version-badge {
+  padding: 2px 6px;
+  font-size: 11px;
+  border-radius: 4px;
+}
+
+.copy-wrapper .credit {
+  font-size: 12px;
+  color: #6c757d;
+  font-style: italic;
+  white-space: nowrap;
+}
+
+/* === Copyright footer line (bottom text) === */
+.copy-footer {
+  font-size: 14px;
+  color: #6c757d;
+  margin-bottom: 12px;
+}
+
+/* === URL banner (right part of the top header) === */
+.url-banner {
+  margin-right: 70px;
+  max-width: calc(100% - 80px);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background: #fff;
+  border: 1px solid #dde2e6;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .04);
+  font-size: 13px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.url-banner strong {
+  font-weight: 600;
+  color: #0d6efd;
+  white-space: nowrap;
+}
+
+.url-banner a {
+  color: #212529;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.url-banner a:hover {
+  text-decoration: underline;
+}
+
+/* === Remove vertical spacing before/after GTM selector === */
+.block-tight {
+  margin-top: -10px;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.block-tight .form-label,
+.block-tight .form-control,
+.block-tight .form-check {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  line-height: 1.3;
+}

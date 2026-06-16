@@ -1,0 +1,54 @@
+{
+  "manifest_version": 3,
+  "name": "GTM - EyE",
+  "version": "1.1",
+  "description": "Google Tag Manager inspector - PRIVATICS team, Inria, FR. (c) Copyright 2024: all rights reserved",
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "detection_rules.json"
+      }
+    ]
+  },
+  "permissions": [
+    "declarativeNetRequest", 
+    "declarativeNetRequestFeedback",
+    "declarativeNetRequestWithHostAccess",
+    "tabs",
+    "activeTab",
+    "scripting",
+    "debugger",
+    "storage"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ],
+
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "web_accessible_resources": [{
+  "matches": ["<all_urls>"],
+  "resources": ["index.html", "gtm-lib/*", "assets/*", "images/*"]
+}],
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "images/gtm.png",
+      "24": "images/gtm.png",
+      "32": "images/gtm.png"
+    },
+    "default_title": "GTM - EyE",
+    "default_popup": "index.html"
+  }
+}
