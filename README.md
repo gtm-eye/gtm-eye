@@ -48,8 +48,8 @@ This project is a comprehensive Chrome extension designed to enhance the managem
 
 ## Installation in the Browser
     
-    - Follow the "Extention Installation guide" from step 2
-    - At step 3 instead of selecting the `GTM-EyE` directory, select the `build` directory generated from the `npm run build` command.
+ - Follow the "Extention Installation guide" from step 2
+ - At step 3 instead of selecting the `GTM-EyE` directory, select the `build` directory generated from the `npm run build` command.
 
 
 # Hierarchy
