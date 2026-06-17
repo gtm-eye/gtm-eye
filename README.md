@@ -27,9 +27,11 @@ Related research articles are available [here](https://github.com/gtm-eye/resear
 
 # Extension Installation Guide (Chrome/Chromium)
 
+If you want to benefit from the packaged extension (otherwise see the developper's version below):
+
 1. **Download the extension**
    
-   - download the GTM-EyE.zip archive from this repository (if you prefer compiling it, folow the `Developper Installation Guide` below)
+   - download the GTM-EyE.zip archive from this repository 
    - decompress the release.zip
    - the `GTM-EyE` folder will be created
 
@@ -49,6 +51,10 @@ Related research articles are available [here](https://github.com/gtm-eye/resear
 
 # Developper Installation Guide
 
+If you prefer to compile the extension (instead of using the packaged extension):
+
+## Building 
+
 1. Install the dependencies:
     ```sh
     npm i
@@ -61,7 +67,7 @@ Related research articles are available [here](https://github.com/gtm-eye/resear
 
 ## Installation in the Browser
     
- - Follow the "Extention Installation guide" from step 2
+ - Follow the "Extension Installation guide" from step 2
  - At step 3 instead of selecting the `GTM-EyE` directory, select the `build` directory generated from the `npm run build` command.
 
 
