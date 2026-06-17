@@ -13,7 +13,18 @@ This project is a comprehensive Chrome extension designed to enhance the managem
 - **Injection Tree**: Visual representation of the hierarchy and structure of the tree of injected scripts.
 - **Server Components**: Includes server components to handle requests with custom headers and serve obfuscated GTM scripts.
 
+## Authors and contributors
+
+- Marouane (https://github.com/Marouane133)
+- Gilles (https://github.com/MeGilles)
+- Vincent (https://github.com/vincent-grenoble)
+- Youssef El Atia
+
+This project has been created by [PRIVATICS](https://team.inria.fr/privatics/) Inria team members, in the context of the [IPoP](https://files.inria.fr/ipop) project.
+
+
 # Extension Installation Guide (Chrome/Chromium)
+
 1. **Download the extension**
    
    - download the GTM-EyE.zip archive from this repository (if you prefer compiling it, folow the `Developper Installation Guide` below)
@@ -92,9 +103,5 @@ Server that sends requests needing custom headers and serve obfuscated GTM scrip
 Web app loading obfuscated GTM scripts.
 - **run.sh** : Script that runs the server.
 - **index.html** : HTML page for a web app loading obfuscated GTM scripts.
-
-
-
-
 
 
