@@ -13,14 +13,13 @@ This project is a comprehensive Chrome extension designed to enhance the managem
 - **Injection Tree**: Visual representation of the hierarchy and structure of the tree of injected scripts.
 - **Server Components**: Includes server components to handle requests with custom headers and serve obfuscated GTM scripts.
 
-## Authors and contributors
+## About
 
+Authors and contributors:
 - Marouane (https://github.com/Marouane133)
 - Gilles (https://github.com/MeGilles)
 - Vincent (https://github.com/vincent-grenoble)
 - Youssef El Atia
-
-## Support
 
 This project has been created by [PRIVATICS](https://team.inria.fr/privatics/) Inria team members, in the context of the [IPoP](https://files.inria.fr/ipop) project.
 Related research articles are available [here](https://github.com/gtm-eye/research_articles).
