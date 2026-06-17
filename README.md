@@ -10,8 +10,8 @@ This project is a comprehensive Chrome extension designed to enhance the managem
 - **GTM Data Handling**: Extract and parse data from GTM scripts for detailed analysis.
 - **Dynamic Script Injection**: Inject custom scripts dynamically to manage and manipulate GTM behavior.
 - **Notifications**: Real-time notifications about the state and changes of GTM scripts.
-<!-- - **Injection Tree**: Visual representation of the hierarchy and structure of the tree of injected scripts. -->
 - **Server Components**: Includes server components to handle requests with custom headers and serve obfuscated GTM scripts.
+<!-- - **Injection Tree**: Visual representation of the hierarchy and structure of the tree of injected scripts. -->
 
 ## About
 
