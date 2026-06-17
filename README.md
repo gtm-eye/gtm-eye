@@ -20,8 +20,9 @@ This project is a comprehensive Chrome extension designed to enhance the managem
 - Vincent (https://github.com/vincent-grenoble)
 - Youssef El Atia
 
-This project has been created by [PRIVATICS](https://team.inria.fr/privatics/) Inria team members, in the context of the [IPoP](https://files.inria.fr/ipop) project.
+## Support
 
+This project has been created by [PRIVATICS](https://team.inria.fr/privatics/) Inria team members, in the context of the [IPoP](https://files.inria.fr/ipop) project.
 Related research articles are available [here](https://github.com/gtm-eye/research_articles).
 
 
